@@ -115,11 +115,26 @@
       background-position: center center;
       background-size: cover;
       transform: scale(1);
+      isolation: isolate;
       -webkit-transition: all 9s ease-out 0s;
       -moz-transition: all 9s ease-out 0s;
       -ms-transition: all 9s ease-out 0s;
       -o-transition: all 9s ease-out 0s;
       transition: all 9s ease-out 0s;
+
+      // darken hero backgrounds slightly for readability
+      &::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 0.35) 0%,
+          rgba(0, 0, 0, 0.55) 100%
+        );
+        z-index: 1;
+        pointer-events: none;
+      }
     }
 
 

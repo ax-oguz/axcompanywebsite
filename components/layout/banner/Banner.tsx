@@ -120,7 +120,8 @@ const Banner = () => {
               <div
                 className="slide-bg"
                 style={{
-                  backgroundImage: "url(/images/banner/banner-image.jpg)",
+                  backgroundImage:
+                    "url(/images/banner/data-center-programmers-collaborating-working-neural-networks-ai-databases-min.jpg)",
                 }}
               ></div>
               <div className="container">
@@ -131,32 +132,7 @@ const Banner = () => {
                     data-delay=".3s"
                     className="text-white mb-20"
                   >
-                    <svg
-                      className="me-1"
-                      width="40"
-                      height="16"
-                      viewBox="0 0 40 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <rect
-                        x="0.5"
-                        y="0.500183"
-                        width="25.6667"
-                        height="15"
-                        rx="7.5"
-                        stroke="white"
-                      />
-                      <rect
-                        x="13.3334"
-                        y="0.000183105"
-                        width="26.6667"
-                        height="16"
-                        rx="8"
-                        fill="white"
-                      />
-                    </svg>{" "}
-                    Leading AI & Data Science Solutions
+                    AI Infrastructure & Data Platforms
                   </h4>
                   <h1
                     data-animation="slideInRight"
@@ -164,7 +140,7 @@ const Banner = () => {
                     data-delay=".5s"
                     className="text-white"
                   >
-                    Transform Your Business with AI & Machine Learning
+                    Secure, Scalable AI for Modern Enterprises
                   </h1>
                   <p
                     data-animation="slideInRight"
@@ -172,9 +148,8 @@ const Banner = () => {
                     data-delay=".7s"
                     className="mt-20"
                   >
-                    We deliver cutting-edge Data Science, AI, and Machine Learning solutions
-                    <br />
-                    that drive innovation and accelerate your business growth.
+                    We design resilient data pipelines, GPU capacity, and observability so your
+                    AI workloads stay fast, secure, and reliable.
                   </p>
                   <Link
                     data-animation="slideInRight"
@@ -267,7 +242,8 @@ const Banner = () => {
               <div
                 className="slide-bg"
                 style={{
-                  backgroundImage: "url(/images/banner/banner-image2.jpg)",
+                  backgroundImage:
+                    "url(/images/banner/engineer-integrating-artificial-intelligence-photovoltaics-factory-production-min.jpg)",
                 }}
               ></div>
               <div className="container">
@@ -278,32 +254,7 @@ const Banner = () => {
                     data-delay=".3s"
                     className="text-white mb-20"
                   >
-                    <svg
-                      className="me-1"
-                      width="40"
-                      height="16"
-                      viewBox="0 0 40 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <rect
-                        x="0.5"
-                        y="0.500183"
-                        width="25.6667"
-                        height="15"
-                        rx="7.5"
-                        stroke="white"
-                      />
-                      <rect
-                        x="13.3334"
-                        y="0.000183105"
-                        width="26.6667"
-                        height="16"
-                        rx="8"
-                        fill="white"
-                      />
-                    </svg>{" "}
-                    Leading AI & Data Science Solutions
+                    Industrial AI & Energy Intelligence
                   </h4>
                   <h1
                     data-animation="slideInRight"
@@ -311,7 +262,7 @@ const Banner = () => {
                     data-delay=".5s"
                     className="text-white"
                   >
-                    Transform Your Business with AI & Machine Learning
+                    Optimize Production with Computer Vision & IoT
                   </h1>
                   <p
                     data-animation="slideInRight"
@@ -319,9 +270,8 @@ const Banner = () => {
                     data-delay=".7s"
                     className="mt-20"
                   >
-                    We deliver cutting-edge Data Science, AI, and Machine Learning solutions
-                    <br />
-                    that drive innovation and accelerate your business growth.
+                    From smart factories to photovoltaics, we deploy models that cut downtime
+                    and improve yield with real-time insights.
                   </p>
                   <Link
                     data-animation="slideInRight"
@@ -414,7 +364,8 @@ const Banner = () => {
               <div
                 className="slide-bg"
                 style={{
-                  backgroundImage: "url(/images/banner/banner-image3.jpg)",
+                  backgroundImage:
+                    "url(/images/banner/machine-learning-expert-data-center-maintaining-company-network-min.jpg)",
                 }}
               ></div>
               <div className="container">
@@ -425,32 +376,7 @@ const Banner = () => {
                     data-delay=".3s"
                     className="text-white mb-20"
                   >
-                    <svg
-                      className="me-1"
-                      width="40"
-                      height="16"
-                      viewBox="0 0 40 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <rect
-                        x="0.5"
-                        y="0.500183"
-                        width="25.6667"
-                        height="15"
-                        rx="7.5"
-                        stroke="white"
-                      />
-                      <rect
-                        x="13.3334"
-                        y="0.000183105"
-                        width="26.6667"
-                        height="16"
-                        rx="8"
-                        fill="white"
-                      />
-                    </svg>{" "}
-                    Leading AI & Data Science Solutions
+                    ML Ops & Network Reliability
                   </h4>
                   <h1
                     data-animation="slideInRight"
@@ -458,7 +384,7 @@ const Banner = () => {
                     data-delay=".5s"
                     className="text-white"
                   >
-                    Transform Your Business with AI & Machine Learning
+                    Deploy ML Safely Across Your Enterprise
                   </h1>
                   <p
                     data-animation="slideInRight"
@@ -466,9 +392,8 @@ const Banner = () => {
                     data-delay=".7s"
                     className="mt-20"
                   >
-                    We deliver cutting-edge Data Science, AI, and Machine Learning solutions
-                    <br />
-                    that drive innovation and accelerate your business growth.
+                    Model monitoring, drift defense, and automated rollouts keep your AI
+                    products reliable in production.
                   </p>
                   <Link
                     data-animation="slideInRight"

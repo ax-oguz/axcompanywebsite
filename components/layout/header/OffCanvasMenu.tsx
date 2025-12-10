@@ -126,7 +126,10 @@ const OffCanvasMenu = ({ toggleMenu, handleToggleMenu }: any) => {
       <ul className="info pt-40">
         <li>
           <i className="fa-solid primary-color fa-location-dot"></i>{" "}
-          <Link href="/">example@example.com</Link>
+          <Link href="/">
+            Building A1, Dubai Digital Park, Dubai Silicon Oasis, Dubai, United
+            Arab Emirates
+          </Link>
         </li>
         <li className="py-2">
           <i className="fa-solid primary-color fa-phone-volume"></i>{" "}
@@ -134,7 +137,7 @@ const OffCanvasMenu = ({ toggleMenu, handleToggleMenu }: any) => {
         </li>
         <li>
           <i className="fa-solid primary-color fa-paper-plane"></i>{" "}
-          <Link href="/">info@example.com</Link>
+          <Link href="/">info@axionvate.com</Link>
         </li>
       </ul>
       <div className="social-icon mt-20">

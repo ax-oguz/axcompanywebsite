@@ -60,7 +60,7 @@ const Testimonial = () => {
                     <input
                       type="email"
                       id="email"
-                      placeholder="info@example.com"
+                    placeholder="info@axionvate.com"
                     />
                   </div>
                   <div className="col-sm-6">

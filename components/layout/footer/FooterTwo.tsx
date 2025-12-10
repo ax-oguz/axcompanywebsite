@@ -162,7 +162,7 @@ const FooterTwo = () => {
           >
             <h3 className="footer-title">Contact Us</h3>
             <p className="mb-20">
-              4517 Washington Ave. Manchester, Kentucky 39495
+              Building A1, Dubai Digital Park, Dubai Silicon Oasis, Dubai, United Arab Emirates
             </p>
             <ul className="footer-contact">
               <li>
