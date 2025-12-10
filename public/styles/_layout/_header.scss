@@ -114,6 +114,21 @@
   }
   &__main {
     @include justify-wrp;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 30% 1fr auto;
+    column-gap: 30px;
+    .logo {
+      justify-self: center;
+    }
+    .main-menu {
+      justify-self: center;
+    }
+    @include breakpoint(max-lg) {
+      display: flex;
+      justify-content: space-between;
+      column-gap: 0;
+    }
     .main-menu {
       ul {
         @include flex;
