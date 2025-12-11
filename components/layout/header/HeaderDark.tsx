@@ -145,17 +145,6 @@ const HeaderDark = () => {
                   </li>
                   <li>
                     <Link href="/service">Services</Link>
-                    <ul className="sub-menu">
-                      <li>
-                        <Link href="service-solutions">IT Solutions</Link>
-                      </li>
-                      <li>
-                        <Link href="service">IT Services</Link>
-                      </li>
-                      <li>
-                        <Link href="service-details">Service Details</Link>
-                      </li>
-                    </ul>
                   </li>
                   <li>
                     <Link href="/case">Pages</Link>

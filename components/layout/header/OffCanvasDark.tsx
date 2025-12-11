@@ -110,23 +110,7 @@ const OffCanvasDark = ({ toggleMenu, handleToggleMenu }: any) => {
               <Link href="about">About</Link>
             </li>
             <li>
-              <a
-                className={`drop ${isSubMenuButton("services")}`}
-                onClick={() => handleSubmenu("services")}
-              >
-                Services
-              </a>
-              <ul className={`sub-menu ${isSubMenuOpen("services")}`}>
-                <li>
-                  <Link href="service-solutions">IT Solutions</Link>
-                </li>
-                <li>
-                  <Link href="service">IT Services</Link>
-                </li>
-                <li>
-                  <Link href="service-details">Service Details</Link>
-                </li>
-              </ul>
+              <Link href="service">Services</Link>
             </li>
             <li>
               <a

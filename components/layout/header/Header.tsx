@@ -80,17 +80,6 @@ const Header = () => {
                   </li>
                   <li>
                     <Link href="/service">Services</Link>
-                    <ul className="sub-menu">
-                      <li>
-                        <Link href="service-solutions">AI Solutions</Link>
-                      </li>
-                      <li>
-                        <Link href="service">ML Services</Link>
-                      </li>
-                      <li>
-                        <Link href="service-details">Data Science Services</Link>
-                      </li>
-                    </ul>
                   </li>
                   <li>
                     <Link href="/case">Pages</Link>
