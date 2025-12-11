@@ -26,8 +26,8 @@ const Header = () => {
     };
   }, []);
 
-  // keep header static; disable hide-on-scroll behavior
-  const scrolled = false;
+  // keep header sticky/visible
+  const scrolled = true;
 
   // search toggle
   const [searchToggle, setSearchToggle] = useState(false);
@@ -46,9 +46,7 @@ const Header = () => {
 
   return (
     <>
-      <header
-        className={(scrolled ? " aniamted menu-fixed" : " ") + " header-area"}
-      >
+      <header className="aniamted menu-fixed header-area">
         <div className="container header__container">
           <div className="header__main">
             <Link href="/" className="logo">

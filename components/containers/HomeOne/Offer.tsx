@@ -7,6 +7,12 @@ import Four from "@/public/images/icon/section-title.png";
 import Five from "@/public/images/shape/offter-item-shape-top.png";
 import Six from "@/public/images/shape/offter-item-shape-bottom.png";
 import Seven from "@/public/images/shape/offter-item-shape-top.png";
+import AiIcon from "@/public/images/icon/about-three-icon1.png";
+import VisionIcon from "@/public/images/icon/service-three-icon1.png";
+import CloudIcon from "@/public/images/icon/service-three-light-icon1.png";
+import DataIcon from "@/public/images/icon/service-icon1.png";
+import SecurityIcon from "@/public/images/icon/service-two-icon4.png";
+import OpsIcon from "@/public/images/icon/service-three-light-icon2.png";
 
 const Offer = () => {
   return (

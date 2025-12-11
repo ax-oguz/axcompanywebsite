@@ -90,7 +90,7 @@ const Testimonial = () => {
           <div className="col-lg-6 ps-2 ps-lg-5">
             <div className="section-header mb-40">
               <h5
-                className=""
+                className="text-white"
                 data-aos="fade-up"
                 data-aos-delay="0"
                 data-aos-duration="1500"
@@ -99,7 +99,7 @@ const Testimonial = () => {
                 CLIENTS REVIEW
               </h5>
               <h2
-                className=""
+                className="text-white"
                 data-aos="fade-up"
                 data-aos-delay="200"
                 data-aos-duration="1500"
@@ -107,7 +107,7 @@ const Testimonial = () => {
                 What They Say About Our
               </h2>
               <p
-                className=""
+                className="text-white"
                 data-aos="fade-up"
                 data-aos-delay="400"
                 data-aos-duration="1500"
