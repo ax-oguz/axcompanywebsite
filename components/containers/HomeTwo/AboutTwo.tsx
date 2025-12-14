@@ -111,6 +111,15 @@ const AboutTwo = () => {
                 valuable insights from your data, automate complex processes, and drive strategic 
                 decision-making for sustainable growth.
               </p>
+              <p
+                className=""
+                data-aos="fade-up"
+                data-aos-delay="500"
+                data-aos-duration="1500"
+              >
+                UK, Dubai, Azerbaycan ve Türkiye’de faaliyet gösteriyor; kamu kurumları, 
+                büyük ölçekli ve kurumsal yapılarla çalışıyoruz.
+              </p>
             </div>
             <div
               className="about-two__right-item "
