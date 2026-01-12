@@ -7,9 +7,6 @@ import CustomCursor from "@/components/layout/CustomCursor";
 import ScrollProgressButton from "@/components/layout/ScrollProgressButton";
 import { notFound } from "next/navigation";
 
-// Cloudflare Pages Edge Runtime için gerekli
-export const runtime = 'edge';
-
 const services = {
   "big-data": {
     title: "Big Data",
@@ -42,6 +39,13 @@ type PageProps = {
     slug: string;
   };
 };
+
+// Static export için tüm slug'ları oluştur
+export async function generateStaticParams() {
+  return Object.keys(services).map((slug) => ({
+    slug: slug,
+  }));
+}
 
 const page = ({ params }: PageProps) => {
   const service = services[params.slug as keyof typeof services];
