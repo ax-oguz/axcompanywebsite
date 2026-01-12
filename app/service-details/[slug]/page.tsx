@@ -43,13 +43,6 @@ type PageProps = {
   };
 };
 
-// Static generation için tüm slug'ları tanımla
-export async function generateStaticParams() {
-  return Object.keys(services).map((slug) => ({
-    slug: slug,
-  }));
-}
-
 const page = ({ params }: PageProps) => {
   const service = services[params.slug as keyof typeof services];
 
