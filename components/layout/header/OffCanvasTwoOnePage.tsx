@@ -141,10 +141,10 @@ const OffCanvasTwoOnePage = ({ toggleMenu, handleToggleMenu }: any) => {
             Arab Emirates
           </Link>
         </li>
-        <li className="py-2">
+        {/* <li className="py-2">
           <i className="fa-solid primary-color fa-phone-volume"></i>{" "}
           <Link href="tel:+208-6666-0112">+208-6666-0112</Link>
-        </li>
+        </li> */}
         <li>
           <i className="fa-solid primary-color fa-paper-plane"></i>{" "}
           <Link href="/">info@axionvate.com</Link>

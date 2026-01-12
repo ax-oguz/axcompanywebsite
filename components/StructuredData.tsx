@@ -15,7 +15,6 @@ export default function StructuredData() {
     },
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+208-6666-0112",
       "contactType": "customer service",
       "email": "info@axionvate.com",
       "areaServed": ["AE", "GB", "AZ", "TR"],

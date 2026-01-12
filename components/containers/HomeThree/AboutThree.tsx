@@ -157,12 +157,12 @@ const AboutThree = () => {
                       </svg>
                     </span>
                   </div>
-                  <div className="info">
+                  {/* <div className="info">
                     <span className="sm-font fw-600 secondary-color">
                       Call Us Now
                     </span>
                     <h5>+208-555-0112</h5>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

@@ -11,7 +11,7 @@ const ContactContent = () => {
             <div className="contact__left-item primary-bg">
               <h3 className="text-white mb-30">Contact Information</h3>
               <ul className="mt-40 mb-40">
-                <li>
+                {/* <li>
                   <i>
                     <svg
                       width="30"
@@ -38,7 +38,7 @@ const ContactContent = () => {
                       </Link>
                     </h3>
                   </div>
-                </li>
+                </li> */}
                 <li>
                   <i>
                     <svg

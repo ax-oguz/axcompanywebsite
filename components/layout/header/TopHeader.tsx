@@ -26,7 +26,7 @@ const TopHeader = () => {
                 info@axionvate.com
               </Link>
             </li>
-            <li className="ms-4">
+            {/* <li className="ms-4">
               <svg
                 width="16"
                 height="15"
@@ -59,7 +59,7 @@ const TopHeader = () => {
               <Link href="/" className="ms-1">
                 +208-6666-0112
               </Link>
-            </li>
+            </li> */}
           </ul>
           <ul className="link-info">
             <li>

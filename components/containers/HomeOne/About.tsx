@@ -51,7 +51,7 @@ const About = () => {
                   data-aos-duration="1500"
                 >
                   <Image className="me-1" src={Three} alt="icon" priority />
-                  ABOUT AX COMPANY
+                  ABOUT AX
                 </h5>
                 <h2
                   className=""

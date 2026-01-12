@@ -147,7 +147,7 @@ const HeaderTwoOnePage = () => {
               <Link href="contact" className="btn-one">
                 Get A Quote <i className="fa-regular fa-arrow-right-long"></i>
               </Link>
-              <div className="about-three__left-item d-flex flex-wrap gap-2 align-items-center">
+              {/* <div className="about-three__left-item d-flex flex-wrap gap-2 align-items-center">
                 <div className="about-call-icon">
                   <span>
                     <svg
@@ -192,7 +192,7 @@ const HeaderTwoOnePage = () => {
                   <span className="sm-font fw-600 text-white">Call Us Now</span>
                   <h5 className="text-white">+208-555-0112</h5>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="bars d-block d-lg-none">
               <i

@@ -111,7 +111,7 @@ const Footer = () => {
             <p className="mb-20">
               Building A1, Dubai Digital Park, Dubai Silicon Oasis, Dubai, United Arab Emirates
             </p>
-            <ul className="footer-contact">
+            {/* <ul className="footer-contact">
               <li>
                 <i className="fa-duotone fa-phone"></i>
                 <div className="info">
@@ -119,7 +119,7 @@ const Footer = () => {
                   <p>208-6666-0112, 308-5555-0113</p>
                 </div>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
       </div>
